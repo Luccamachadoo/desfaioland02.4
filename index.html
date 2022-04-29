@@ -2,40 +2,64 @@
 <html lang="pt-br">
 <head>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Rocket.sect</title>
+-
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Open+Sans:wght@500;700&display=swap" 
+   rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Tag div.page seria para indicar que tudo está contido dentro de uma caixa - que há espaços ao redor-->
   <div class="page">
-    <header>
-      <img src="imagens/logo.svg" alt="Logo do Rocket.sect">
-
+    
       <nav>
-        <li>Início</li>
-        <li>Serviços</li>
-        <li>Contato</li>
+        <a id="logo" href="#">
+          <img src="imagens/logo.svg" alt="Logo do Rocket.sect">
+        </a>
+       <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Contato</a></li>
+       </ul>
       </nav>
 
- 
-    </header>
     <main>
+      <img src="imagens/img1.png" alt="Imagem de uma boneca ao lado de um notebook onde também podemos visualizar um cadeado">
       <section class="text">
-        <h2>Seus dados estão <span>protegidos?</span></h2>
+        <h1>Seus dados estão <span>protegidos</span>?</h1>
 
-        <p>A informação é fundamental e de <strong>extrema importância</strong> para qualquer empresa.<br/>
+        <p>A informação é fundamental e de <strong>extrema importância</strong> para qualquer <br/> 
+          empresa.<br/>
+          <br/>
 
-          Aqui vai um <strong>texto</strong> como se fosse uma empresa de <span>segurança da informação</span> apresentando o seu produto e com o texto todo estilizado.</p>
+          Aqui vai um <strong>texto</strong> como se fosse uma empresa de <span>segurança da informação</span> <br/> 
+          apresentando o seu produto e com o texto todo estilizado.</p>
 
       </section>
-      <img src="imagens/img1.png" alt="Imagem de uma boneca ao lado de um notebook onde também podemos visualizar um cadeado" class="">
     </main>
-    <footer></footer>
+
+    
+
+    <footer>
+  
+      <img id="line" src="Imagens/Line 1.png"> <br/>
+      para mais informações nos siga no instagram
+      <a 
+       href="https://instagram.com/rocketsect" 
+       target="_blank"> @rocket.sect
+      </a> </p>
+    </footer>
 
   </div>
+
+  <img id="cadeado"src="imagens/padlock.svg" alt="Imagem de um cadeado">
   
 </body>
 </html>
